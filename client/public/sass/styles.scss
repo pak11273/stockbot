@@ -1,16 +1,11 @@
+@import "reset";
 @import "variables";
 @import "typeography";
-@import "queries";
 @import "index";
-
-/* reset */
-* {
-  margin: 0;
-  padding: 0;
-  outline: none;
-}
+@import "queries";
 
 body {
+  box-sizing: border-box;
   background-color: $tertiary;
   width: 100vw;
   height: 100vh;

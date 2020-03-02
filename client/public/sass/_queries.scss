@@ -1,13 +1,7 @@
-@media (min-width: 350px) {
-  .features {
-    display: column;
-  }
+@media screen and (min-width: 350px) {
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
   .features-hero {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-direction: row;
   }
 }
