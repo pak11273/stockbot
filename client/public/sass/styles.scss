@@ -1,0 +1,49 @@
+@import "variables";
+@import "typeography";
+@import "queries";
+@import "index";
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: $tertiary;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  font-family: sans-serif;
+  color: $light;
+  h1 {
+    font-size: 3em;
+  }
+}
+
+.container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  header {
+    height: 200px;
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    flex-webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    color: $light;
+    background-color: $primary;
+    h1 {
+      margin: 0 !important;
+    }
+  }
+}

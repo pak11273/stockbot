@@ -1,0 +1,13 @@
+@media (min-width: 350px) {
+  .features {
+    display: column;
+  }
+}
+
+@media (min-width: 600px) {
+  .features-hero {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+  }
+}
