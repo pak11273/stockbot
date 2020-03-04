@@ -6,8 +6,7 @@ dist
 todo
 development
 cypress
-cdn/
-coverage
+cdn/ coverage
 gotchas
 .notes
 notes
@@ -36,3 +35,4 @@ pids
 # Dependency directories
 node_modules/
 node_modules
+.now
